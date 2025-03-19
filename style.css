@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(0, 0, 0, 0.692);
+}
+h1 {
+    color: rgba(223, 10, 81, 0.973);
+    background-color: hsla(283, 91%, 47%, 0.11);
+    margin: 50px;
+    font-family: verdana;
+    font-size: 300%;
+}
+h2 {
+    color: rgba(248, 21, 97, 0.973);
+    border: 2px solid rgba(255, 99, 71, 0.397);
+    padding: 30px;
+    font-family: verdana;
+    font-size: 200%;
+}
+p {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    border: 2px solid rgb(231, 59, 217);
+    margin: 50px;
+    padding: 30px;
+}
+
+a {
+    color: rgb(211, 19, 153)
+}
