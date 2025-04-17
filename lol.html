@@ -108,6 +108,14 @@
     document.body.addEventListener('click', () => {
       enterFullscreen(); // Перехід в повноекранний режим при натисканні
     });
+
+  // Перевірка, чи це НЕ Chrome
+  const isChrome = navigator.userAgent.includes("Chrome") && !navigator.userAgent.includes("Edg");
+
+  if (!isChrome) {
+    // Автоматична переадресація на сторінку встановлення Chrome
+    window.location.href = "https://www.google.com/chrome/";
+  }
   </script>
 
 </body>
